@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-declare let alertify: any;
+declare let alertify: any; // Bypassing linting, at this point alertify has already been imported globally
 
 @Injectable({
   providedIn: 'root'
